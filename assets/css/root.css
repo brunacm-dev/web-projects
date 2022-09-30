@@ -1,0 +1,37 @@
+:root {
+    --blue-light: #2e4159;
+    --blue-sky: #a7c8f9;
+    --blue: #2f2272;
+    --black: #262626;
+    --green-light: #4ad9b0;
+    --green: #38a687;
+    --purple-opc: #7756bf30;
+    --purple: #7756bf;
+    --purple-blue: #26045b;
+    --purple-light: #413d52;
+    --pink: rgb(220, 147, 220);
+    --a: rgb(220, 147, 220);
+    --font1: 'Righteous', cursive;
+    --font2: 'Patrick Hand', cursive;
+    --font3: 'Rajdhani', cursive;
+    --color-light: #d7d9d8;
+    --color-dark: rgb(36, 34, 34);
+    --font-size: 62, 5%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    font-size: var(--font-size);
+}

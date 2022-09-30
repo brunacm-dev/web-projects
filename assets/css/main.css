@@ -1,0 +1,81 @@
+@import '/assets/css/root.css';
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__intro {
+    background-color: var(--purple-opc);
+    padding: 1.5rem 0rem 0rem 1.5rem;
+    height: 15rem;
+    border-bottom: 1px solid var(--color-dark);
+    width: 100%;
+}
+
+.txt__intro {
+    font-size: 1.5rem;
+}
+
+span:first-child {
+    font-size: 3rem;
+    color: var(--purple);
+}
+
+span:last-child {
+    font-size: 2rem;
+    color: var(--purple-blue);
+}
+
+.project {
+    display: flex;
+}
+
+.codes__icon {
+    width: 100%;
+    height: 4rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--purple);
+    border-radius: 10px;
+}
+
+.project__container {
+    justify-content: center;
+}
+
+.project__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+}
+
+.project__item {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--purple);
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 15rem;
+    word-break: break-all;
+    border-radius: 10px;
+    background-color: var(--purple-opc);
+}
+
+.project__item a {
+    text-decoration: none;
+    font-family: var(--font3);
+    font-size: 1.3rem;
+    color: var(--purple-blue);
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.project__item a:hover {
+    color: var(--color-light);
+    background-color: var(--purple-blue);
+}

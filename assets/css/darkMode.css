@@ -1,0 +1,25 @@
+@import './root.css';
+
+body.dark {
+    background-color: var(--color-dark);
+}
+
+.txt.dark,
+.btn__project.dark {
+    color: var(--color-light);
+}
+
+.header__container.dark {
+    border: 1px solid var(--color-light);
+    border-style: solid none;
+}
+
+.moon__icon.dark,
+.link__icon__social.dark {
+    fill: var(--color-light);
+}
+
+.footer.dark {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}

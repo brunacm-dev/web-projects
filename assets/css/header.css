@@ -1,0 +1,67 @@
+@import './root.css';
+
+.txt {
+    color: var(--color-dark);
+    font-family: var(--font3);
+    font-size: 1rem;
+}
+
+.header__top {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.moon__icon {
+    fill: var(--color-dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn__icon__mode,
+.link__icon__social {
+    background: none;
+    border: none;
+}
+
+.link__icon__social {
+    fill: var(--color-dark);
+    width: 3rem;
+    margin: 1rem;
+}
+
+.link__icons {
+    display: flex;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--color-dark);
+    border-style: solid none;
+}
+
+.header__menu {
+    display: flex;
+    padding: 5px 20px;
+    list-style: none;
+    font-family: var(--font3);
+    font-size: 1.2rem;
+}
+
+.header__nav a:hover,
+.header__nav a:active,
+.header__nav a:visited {
+    border-radius: 10px;
+}
+
+.header__nav a:hover {
+    color: var(--purple);
+}
+
+.header__nav a {
+    text-decoration: none;
+    padding: 0.3em;
+}
