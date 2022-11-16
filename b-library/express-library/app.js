@@ -1,3 +1,8 @@
+/**
+ * Isso aqui vai criar e config o app, o objeto de aplicacao
+ */
+
+// importa a biblioteca de coisas
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -9,10 +14,11 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-// view engine setup
+// view engine setup, no caso o pug
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+// add middleware libraries
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -38,4 +44,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// add a app no module exports que permite que seja importado por bin
 module.exports = app;

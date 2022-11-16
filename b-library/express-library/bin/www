@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
 /**
+ * Isso aqui eh a app pro entry point, vai fazer a requisiçao que vai retornar o express()
+ */
+
+/**
  * Module dependencies.
  */
 
