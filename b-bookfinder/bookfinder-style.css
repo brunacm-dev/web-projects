@@ -1,0 +1,25 @@
+@import '/buba-proj/assets/css/root.css';
+@import '/buba-proj/assets/css/header.css';
+@import '/buba-proj/assets/css/main.css';
+@import '/buba-proj/assets/css/footer.css';
+@import '/buba-proj/assets/css/darkMode.css';
+
+.texto {
+    margin: 30px;
+    font-size: 1.5em;
+    font-family: var(--font1);
+    
+}
+.books__resultado {
+    text-align: center;
+    margin: 30px;
+    font-family: var(--font1);
+}
+
+.button {
+    padding: 0.7em;
+    font-family: var(--font1);
+    font-size: 1.2em;
+    margin: 20px;
+    cursor: pointer;
+}

@@ -1,8 +1,6 @@
-@import './root.css';
-
 .txt {
-    color: var(--color-dark);
-    font-family: var(--font3);
+    color: var(--pink);
+    font-family: var(--font1);
     font-size: 1rem;
 }
 
@@ -47,7 +45,7 @@
     display: flex;
     padding: 5px 20px;
     list-style: none;
-    font-family: var(--font3);
+    font-family: var(--font1);
     font-size: 1.2rem;
 }
 
@@ -58,10 +56,11 @@
 }
 
 .header__nav a:hover {
-    color: var(--purple);
+    color: var(--pink);
 }
 
 .header__nav a {
     text-decoration: none;
     padding: 0.3em;
+    color: var(--color-dark);
 }

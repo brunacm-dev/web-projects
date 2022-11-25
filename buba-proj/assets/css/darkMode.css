@@ -1,4 +1,27 @@
-@import './root.css';
+.dark body{
+    background-color: var(--color-dark);
+}
+
+.dark .txt, .dark .btn__project{
+    var(color--light);
+}
+
+.dark .header__container {
+    border: 1px solid var(--color-light);
+    border-style: solid none;
+}
+
+.dark .moon__dark, .dark .link__icon__social{
+    fill: var(--color-light);
+}
+
+.dark .footer{
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+/* 
+#### Estava até a V3 #####
 
 body.dark {
     background-color: var(--color-dark);
@@ -22,4 +45,4 @@ body.dark {
 .footer.dark {
     background-color: var(--color-light);
     color: var(--color-dark);
-}
+} */

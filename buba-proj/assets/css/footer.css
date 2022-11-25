@@ -1,7 +1,5 @@
-@import '/assets/css/root.css';
-
 .footer {
-    font-family: var(--font3);
+    font-family: var(--font1);
     text-align: center;
     background-color: var(--color-dark);
     color: var(--color-light);
